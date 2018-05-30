@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  	<script src="jquery.autocomplete.js"></script>
+  	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+ 
+
+	<title>Landing Page Test</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="background"></div>
+		<div class="content">
+			<img id="logo" src="./pictures/small_logo.png" />
+			<p id="message" style="color:white;">Web application written in JavaScript/jQuery that utilizes MARVEL's RESTful API. Search for a Marvel character below to view a brief character profile.</p>
+			<form>
+				<input id="search" type="text" onfocus="this.placeholder=''" onblur="this.placeholder = 'Search for a character'" placeholder="Search for a character" maxlength="50" autocomplete="off" />
+				<i class="fas fa-search fa-2x"></i>
+			</form>
+			<h2 id="callmsg"></h2>
+	
+		</div>
+	
+		<!-- Output section -->
+		<div class="outputContainer">
+			<div class="output">
+				<div id="picture">
+					<div class="box"></div>
+					<div class="info">
+						<h3 id="charName">test</h3>
+						<p id="charInfo">test</p>
+					</div>
+					<button id='closeButton' type="button">X</button>
+				</div>
+			</div>
+		</div>
+		
+		<div class="footer">
+      		<div id="marvelLink"></div>
+    	</div>
+	</div>
+	<script type="text/javascript" src="marvel.js"></script>
+</body>
+</html>
