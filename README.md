@@ -3,7 +3,7 @@ Small project to work with Marvel's RESTful API that delivers the a brief charac
 Not compatible with IE (maybe some others too, haven't really tested it), not 100% responsive and no mobile responsivness.
 
 Things to be completed:
-- [ ] Mobile responsiveness (don't even try and view it on mobile, it's a mess. Request the desktop site if you're on mobile)
+- [ ] Mobile responsiveness (don't even try and view it on mobile, it's a mess)
 - [ ] Cross browser compatibilty
 - [ ] 100% Responsive design
 
