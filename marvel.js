@@ -87,7 +87,7 @@ $('#search').on('keypress', function(e) {
           var characterName = document.getElementById('charName');
           var characterInfo = document.getElementById('charInfo');
           // api url
-          var url = `http://gateway.marvel.com/v1/public/characters?name=${toTitleCase(searchInput)}&ts=1&apikey=5cd4e65f4ea8f9b76d128f5d107fe223&hash=0827b7b7461633e71c1133db26e773a2`;
+          var url = `https://gateway.marvel.com/v1/public/characters?name=${toTitleCase(searchInput)}&ts=1&apikey=5cd4e65f4ea8f9b76d128f5d107fe223&hash=0827b7b7461633e71c1133db26e773a2`;
 
           // get call
           $.ajax({
