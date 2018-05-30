@@ -1,6 +1,6 @@
 # Marvel API Application
 Small project to work with Marvel's RESTful API that delivers the a brief character information from a character search bar.
-No compatible with IE (maybe some others too, haven't really tested it) and not 100% responsive.
+Not compatible with IE (maybe some others too, haven't really tested it), not 100% responsive and no mobile responsivness.
 
 
 ## Credits
